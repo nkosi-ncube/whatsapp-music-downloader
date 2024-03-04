@@ -11,9 +11,7 @@ from selenium.webdriver.firefox.options import Options
     
 #path_to_user_folder = media_url + "/user_name/"
 
-account_sid = 'ACa0339cfe585a0136ea02c360b734def2' 
-#auth_token = 'e7ffa648564de69dc7da6a9828139181' 
-auth_token='3047acfdca76004966d645217ca8a974'
+
 client = Client(account_sid, auth_token) 
 TWILIO_PHONE_NUMBER='+14155238886'
 '''
