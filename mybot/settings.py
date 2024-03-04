@@ -129,11 +129,3 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-'''
-AWS_ACCESS_KEY_ID ='AKIA4XVVFFNJ7WKB3G55'
-AWS_SECRET_ACCESS_KEY ='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'
-AWS_STORAGE_BUCKET_NAME='codescimath-music-songs'
-AWS_S3_FILE_OVERWRTIE=False
-AWS_DEFAULT_ALL=None
-DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
-'''
